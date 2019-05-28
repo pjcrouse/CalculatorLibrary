@@ -14,7 +14,7 @@ jobs:
       - run:
           name: install dependencies
           command:
-            python3.6 -m venv venv
+            python -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
       # Step 3: Run linter and tests
