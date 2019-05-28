@@ -14,4 +14,7 @@ def multiply(x, y):
 
 
 def divide(x, y):
-    return x / y
+    if y == 0:
+        raise ValueError('Cannot divide by Zero')
+    else:
+        return x / y
